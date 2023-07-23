@@ -55,7 +55,7 @@
                 class="bg-gray-200 rounded-md p-5 font-bold text-xl flex items-center gap-3"
               >
                 <img
-                  src="https://ui-avatars.com/api/?name=haidar+ijlal"
+                  src="https://ui-avatars.com/api/?name=haidar+ijlal&background=0284c7&color=fff"
                   class="w-12 h-12 rounded-md"
                   alt="avatar"
                 />
@@ -77,7 +77,7 @@
                 class="bg-gray-200 rounded-md p-5 font-bold text-xl flex items-center gap-3"
               >
                 <img
-                  src="https://ui-avatars.com/api/?name=jhone+doe"
+                  src="https://ui-avatars.com/api/?name=jhone+doe&background=0284c7&color=fff"
                   class="w-12 h-12 rounded-md"
                   alt="avatar"
                 />
@@ -99,7 +99,7 @@
                 class="bg-gray-200 rounded-md p-5 font-bold text-xl flex items-center gap-3"
               >
                 <img
-                  src="https://ui-avatars.com/api/?name=chika+syifa"
+                  src="https://ui-avatars.com/api/?name=chika+syifa&background=0284c7&color=fff"
                   class="w-12 h-12 rounded-md"
                   alt="avatar"
                 />
@@ -121,7 +121,7 @@
                 class="bg-gray-200 rounded-md p-5 font-bold text-xl flex items-center gap-3"
               >
                 <img
-                  src="https://ui-avatars.com/api/?name=alexa"
+                  src="https://ui-avatars.com/api/?name=alexa&background=0284c7&color=fff"
                   class="w-12 h-12 rounded-md"
                   alt="avatar"
                 />
@@ -143,7 +143,7 @@
                 class="bg-gray-200 rounded-md p-5 font-bold text-xl flex items-center gap-3"
               >
                 <img
-                  src="https://ui-avatars.com/api/?name=Bruno"
+                  src="https://ui-avatars.com/api/?name=Bruno&background=0284c7&color=fff"
                   class="w-12 h-12 rounded-md"
                   alt="avatar"
                 />
