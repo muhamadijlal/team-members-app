@@ -1,11 +1,13 @@
 <script setup>
+import { defineProps } from "vue";
+
 defineProps({
   name: String,
   email: String,
   status: String,
 });
 
-let avatarName = function (name) {
+let avatar = function (name) {
   return name.split(" ").join("+");
 };
 </script>
@@ -18,7 +20,7 @@ let avatarName = function (name) {
       <img
         :src="
           'https://ui-avatars.com/api/?name=' +
-          avatarName(name) +
+          avatar(name) +
           '&background=0284c7&color=fff'
         "
         class="w-12 h-12 rounded-md"

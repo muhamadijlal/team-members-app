@@ -1,7 +1,7 @@
 <script setup>
-defineProps({
-  team: Object,
-});
+import { useTeamStore } from "@/stores/TeamStore.js";
+
+let team = useTeamStore();
 </script>
 
 <template>
@@ -10,7 +10,7 @@ defineProps({
       class="px-3 py-2 bg-green-400 rounded-md font-medium text-lg text-slate-100 disabled:bg-gray-400 disabled:cursor-not-allowed"
       :disabled="team.members.length === team.spots"
     >
-      Add member ({{ team.spots - team.members.length }} spots left)
+      Add member ({{ team.spotsRemaining }} spots left)
     </button>
 
     <div>

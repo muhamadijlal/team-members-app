@@ -2,15 +2,23 @@
 import TeamHeader from "@/components/TeamHeader.vue";
 import TeamContent from "@/components/TeamContent.vue";
 import TeamFooter from "@/components/TeamFooter.vue";
-import team from "@/team.json";
+import { useTeamStore } from "@/stores/TeamStore.js";
+
+let team = useTeamStore();
+
+team.fill();
+
+setTimeout(() => {
+  team.spots = 20;
+}, 3000);
 </script>
 
 <template>
   <section class="w-full">
-    <team-header :team="team" />
+    <team-header />
 
-    <team-content :team="team" />
+    <team-content />
 
-    <team-footer :team="team" />
+    <team-footer />
   </section>
 </template>
