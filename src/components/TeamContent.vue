@@ -1,5 +1,11 @@
 <script setup>
 import TeamListMembers from "./members/TeamListMembers.vue";
+
+import { defineProps } from "vue";
+
+defineProps({
+  team: Object,
+});
 </script>
 
 <template>
@@ -25,11 +31,19 @@ import TeamListMembers from "./members/TeamListMembers.vue";
         </thead>
 
         <tbody>
-          <team-list-members />
+          <team-list-members
+            v-for="(member, index) in team.members"
+            :key="index"
+            :name="member.name"
+            :email="member.email"
+            :status="member.status"
+          />
         </tbody>
       </table>
     </div>
-    <span class="text-md font-bold italic flex justify-end text-slate-500"
+    <span
+      class="text-md font-bold italic flex justify-end text-slate-500"
+      v-show="team.spots - team.members.length === 0"
       >There are no remaining team spots. Upgrade to add more.</span
     >
   </main>

@@ -1,0 +1,31 @@
+{
+  "name": "Smiley",
+  "spots": 5,
+  "members": [
+    {
+      "name": "Muhamad Haidar Ijlal",
+      "email": "m.haidarijl@gmail.com",
+      "status": "Active"
+    },
+    {
+      "name": "Chika Syifa",
+      "email": "CSyifa@gmail.com",
+      "status": "Active"
+    },
+    {
+      "name": "Jhone Doe",
+      "email": "JDoe@gmail.com",
+      "status": "Active"
+    },
+    {
+      "name": "Alexa",
+      "email": "alexa@gmail.com",
+      "status": "Active"
+    },
+    {
+      "name": "Christian",
+      "email": "christian@gmail.com",
+      "status": "Active"
+    }
+  ]
+}
