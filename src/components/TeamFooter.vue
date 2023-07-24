@@ -5,7 +5,7 @@ let team = useTeamStore();
 </script>
 
 <template>
-  <footer class="bg-gray-200 rounded-lg p-4 flex justify-center">
+  <footer class="bg-gray-200 rounded-lg p-4 flex justify-center h-28">
     <h5 class="text-lg font-bold text-slate-800">
       {{ team.name }} - {{ team.members.length }} Member Team
     </h5>
