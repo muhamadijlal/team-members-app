@@ -1,5 +1,3 @@
-<script></script>
-
 <template>
   <aside class="w-48 bg-gray-200 p-14">
     <div class="flex justify-center mb-10">

@@ -1,8 +1,8 @@
 <script setup>
-import TeamHeader from "./TeamHeader.vue";
-import TeamContent from "./TeamContent.vue";
-import TeamFooter from "./TeamFooter.vue";
-import team from "../team.json";
+import TeamHeader from "@/components/TeamHeader.vue";
+import TeamContent from "@/components/TeamContent.vue";
+import TeamFooter from "@/components/TeamFooter.vue";
+import team from "@/team.json";
 </script>
 
 <template>

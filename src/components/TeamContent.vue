@@ -1,7 +1,5 @@
 <script setup>
-import TeamListMembers from "./members/TeamListMembers.vue";
-
-import { defineProps } from "vue";
+import TeamListMembers from "@/components/members/TeamListMembers.vue";
 
 defineProps({
   team: Object,

@@ -1,6 +1,4 @@
 <script setup>
-import { defineProps } from "vue";
-
 defineProps({
   team: Object,
 });
@@ -19,7 +17,7 @@ defineProps({
       <div class="inline-flex relative pr-7">
         <div class="flex items-center gap-2">
           <img
-            src="../assets/image/logo-team.jpg"
+            src="@/assets/image/logo-team.jpg"
             alt="logo-team"
             class="w-10 h-10"
           />
